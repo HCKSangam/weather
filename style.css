@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(https://www.linkagetour.com/public/uploads/2023-01-29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    border: solid 2px;
+    max-width: 500px;
+    padding:40px ;
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 500px;
+    background: linear-gradient(130deg, rgb(12, 50, 112),pink);
+    border-radius: 25px;
+    filter: blur(.5px);
+    /* background: transparent; */
+}
+.container:hover{
+    background: linear-gradient(185deg, purple, rgb(35, 35, 181));
+    border: 5px solid white;
+    color: skyblue;
+}
+.city_search{
+    width:80%;
+    padding: 15px 10px;
+    background-color: rgba(55, 35, 35, 0.15);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom:10px ;
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow: hidden;
+    margin-right: 0px;
+}
+.city_search:hover{
+    background-color:skyblue;
+    border-radius: 20px;
+    border-color: rgb(231, 241, 241);
+}
+#searchButton{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-left: 0px;
+}
+#searchButton:hover{
+    background-color: aqua;
+    color:blue;
+    cursor: pointer;
+    border: 3px solid white;
+}
+.cty{
+    display: flex;
+    
+}
+.main_condition{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.temp{
+    display: flex;
+    margin: 30px 0 3px 0;
+}
+.weather_temperature{
+    font-size: 40px;
+    margin-left: 100px;
+    text-shadow: 0px;
+    display: flex;
+}
+.weather_img{
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+}
+.condition{
+    font-size: 25px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.date{
+    font-size: 20px;
+    margin-top:5px ;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.weather_current{
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}
+.weather_humidity{
+    width: 120px;
+    margin: 50px;
+}
+.weather_wind{
+    width: 120px;
+}
+.weather_pressure{
+    width: 120px;
+    margin: 0 50px 0 30px;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+       <form>
+            <input type="text" class="city_search" id="city_search" name="q" placeholder="Enter City Name">
+            <button  id="searchButton"><i class='bx bx-search'></i></button>
+        </form>
+        <div class="today_weather">
+           <div class="cty">
+            <i class='bx bxs-map'></i>
+                <h2 class="city" id="searched_city"></h2>
+            </div>
+            <div class="main_condition"><span id="main_condition"></span></div>
+            <div class="temp">
+                <div class="weather_temperature"><span id="weather_temperature"></span></div>
+                <img src="" alt="weather image" class="weather_img" id="img">
+            </div>
+            <p class="condition" id="condition"></p>
+            <u><p class="date" id="date">date</p></u>
+            <div class="weather_current">
+                <div class="weather_humidity"><i class='bx bxs-droplet'></i><p>Humidity:<span id="weather_humidity"></span></p></div>
+                <div class="weather_wind"><i class='bx bx-wind'></i>Wind:<span id="wind_direction"></span><span id="weather_wind"></span></div>
+                <div class="weather_pressure"><i class='bx bxs-color'></i>Pressure:<span id="weather_pressure"></span></div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="weather.js"></script>
+</html>
